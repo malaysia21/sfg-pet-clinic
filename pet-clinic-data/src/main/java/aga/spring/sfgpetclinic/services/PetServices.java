@@ -2,13 +2,8 @@ package aga.spring.sfgpetclinic.services;
 
 import aga.spring.sfgpetclinic.model.Pet;
 
-import java.util.Set;
 
-public interface PetServices {
 
-    Pet findById (Long id);
+public interface PetServices extends CrudService<Pet, Long>{
 
-    Pet save (Pet pet);
-
-    Set<Pet> findAll();
 }
