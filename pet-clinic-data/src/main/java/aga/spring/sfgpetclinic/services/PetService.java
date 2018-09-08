@@ -4,6 +4,6 @@ import aga.spring.sfgpetclinic.model.Pet;
 
 
 
-public interface PetServices extends CrudService<Pet, Long>{
+public interface PetService extends CrudService<Pet, Long>{
 
 }
