@@ -21,8 +21,6 @@ public class PetSDJpaService implements PetService {
         this.petRepository = petRepository;
     }
 
-    @Autowired
-
     @Override
     public Set<Pet> findAll() {
         Set<Pet> pets = new HashSet<>();
