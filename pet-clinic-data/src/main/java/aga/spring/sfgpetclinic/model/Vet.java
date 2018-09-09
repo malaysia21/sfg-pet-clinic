@@ -5,13 +5,13 @@ import java.util.Set;
 
 public class Vet extends Person {
 
-    private Set<Speciality> speciality = new HashSet<>();
+    private Set<Specialty> speciality = new HashSet<>();
 
-    public Set<Speciality> getSpeciality() {
+    public Set<Specialty> getSpeciality() {
         return speciality;
     }
 
-    public void setSpeciality(Set<Speciality> speciality) {
+    public void setSpeciality(Set<Specialty> speciality) {
         this.speciality = speciality;
     }
 }

@@ -1,6 +1,6 @@
 package aga.spring.sfgpetclinic.model;
 
-public class Speciality extends BaseEntity {
+public class Specialty extends BaseEntity {
 
     private String description;
 
