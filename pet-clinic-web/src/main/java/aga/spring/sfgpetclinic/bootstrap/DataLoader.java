@@ -75,8 +75,6 @@ public class DataLoader implements CommandLineRunner {
         owner2.getPets().add(pet2);
         ownerService.save(owner2);
 
-
-
         Specialty radiology = new Specialty();
         radiology.setDescription("Radiology");
         Specialty savedRadiology = specialtiesService.save(radiology);
